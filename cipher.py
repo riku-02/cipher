@@ -17,7 +17,7 @@ def encrypt(text, shift, encrypt=True):
 
 
 def decrypt(text, shift, encrypt=True):
-  alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+  alphabet = 'dUoKXRvma4wQjENuJnFLc7CBkV01H6ezqZtpbIOsgYW3r8l2DGA5T9xiPMfhSy'
   
 
   new_text = ''
@@ -33,6 +33,8 @@ def decrypt(text, shift, encrypt=True):
   return new_text
 
 # print(f"Encrypted Code: {encrypt(text='Walnut', shift=69, encrypt=True)}")
+# print(f"Decrypted Code: {decrypt(text='Walnut', shift=69, encrypt=True)}")
+
 
 # print('\n# Possible Passwords #\n')
 
