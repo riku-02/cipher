@@ -32,19 +32,13 @@ def decrypt(text, shift, encrypt=True):
   
   return new_text
 
-# print(encrypt(text='Walnut', shift=69, encrypt=True))
+# print(f"Encrypted Code: {encrypt(text='Walnut', shift=69, encrypt=True)}")
 
-# print('\nDecrypting...\n')
+# print('\n# Possible Passwords #\n')
 
-# list = []
-# for i in range(62):
-  
+# for i in range(1, 63):
 #   decryption = encrypt(text='Gu9kCY', shift=i, encrypt=True)
-#   print(decryption)
-#   list.append(decryption)
-
-#   find = 'Walnut'
-#   print(list.count(find))
+#   print(f'{i}: {decryption}')
 
 
 
